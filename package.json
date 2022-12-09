@@ -1,0 +1,33 @@
+{
+  "name": "server-wrapper",
+  "version": "1.0.0",
+  "description": "self-written server wrapper with functional approach for training purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devserver": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrigoryGerasimov/server-wrapper.git"
+  },
+  "keywords": [
+    "server",
+    "wrapper",
+    "self-written",
+    "functional"
+  ],
+  "author": "Grigory Gerasimov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrigoryGerasimov/server-wrapper/issues"
+  },
+  "homepage": "https://github.com/GrigoryGerasimov/server-wrapper#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "config": "^3.3.8"
+  }
+}
